@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Button } from 'semantic-ui-react';
 
-class App extends Component {
+class Home extends Component {
   render() {
     return (
-      <div className="App">
+      <div>
         <button>Default Button</button>
         <button className="ui button">Semantic Button</button>
         <Button primary>Semantic React Button</Button>
@@ -13,4 +13,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Home;
